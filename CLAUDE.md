@@ -1,0 +1,1 @@
+These are persistent memory files for Claude Code. Read all .md files under projects/ and treat their contents as your memory/context for this conversation. Follow any preferences and instructions found in the MEMORY.md files.
