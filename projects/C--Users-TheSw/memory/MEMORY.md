@@ -1,7 +1,9 @@
 # Memory
 
 ## User Preferences
-- **Memory sync**: After any session where memory files are changed, run `bash ~/.claude/sync-memory.sh` to push updates to GitHub (`arthur-vandelay/claude-memory`, public repo). Files with "private" in the name are excluded from sync. On mobile Claude Code, user pastes: `clone arthur-vandelay/claude-memory`
+- **Memory sync (session start)**: At the START of every new conversation, run `bash ~/.claude/sync-memory.sh` to push+pull memory with GitHub. This pushes local changes first, then pulls any mobile changes. Do this before anything else.
+- **Memory sync (session end)**: Also run `bash ~/.claude/sync-memory.sh` after any session where memory files were changed.
+- GitHub repo: `arthur-vandelay/claude-memory` (public). Files with "private" in the name are excluded from sync. On mobile Claude Code, user pastes: `clone arthur-vandelay/claude-memory`
 - When user asks for a "plain text list" of emails, they need a copy-pasteable list at the bottom (e.g. comma-separated or one per line) for pasting into email fields, in addition to the descriptive per-student breakdown above it.
 - **VeraFast roadmap workflow**: After completing each checklist item, STOP and check in with the user before starting the next item. Do not auto-advance to the next task.
 - **VeraFast contact email**: All VeraFast/Veracross projects should use `verafast@fleisch.family` as the contact/support email (not `a@fleisch.family`). This applies to email copy-to-clipboard, mailto links, license prompts, website, etc.
