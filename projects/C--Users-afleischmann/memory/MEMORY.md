@@ -16,8 +16,8 @@
 ## Memory Sync
 - **Session start**: run `bash ~/.claude/sync-memory.sh` to push+pull with GitHub
 - **Session end**: same script after memory changes
-- Desktop repo: `arthur-vandelay/claude-memory-desktop` (desktop machines only)
-- Mobile repo: `arthur-vandelay/claude-memory` (mobile Claude app only, does NOT affect desktop)
+- Desktop repo: `arthur-vandelay/claude-memory` (desktop machines only, synced between afleischmann + TheSw)
+- Mobile Claude app uses a separate repo (`arthur-vandelay/Claude`) and does NOT touch desktop memory
 - Files with "private" in name excluded from sync.
 
 ## Family
@@ -44,6 +44,14 @@
 - Contact info fields: email_1, email_2, home_phone, mobile_phone, business_phone
 - Tools: `update_contact_info(person_id, updates)` and `query_contact_info(name)`
 - `test_write_scopes.py` can be re-run to check which write scopes are available
+
+## GAM Helper
+- Natural language interface for Google Workspace management (GAM) at Fuchs Mizrachi School
+- Built on mobile Claude Code (branch `claude/gam-natural-language-interface-1S18v` in `arthur-vandelay/Claude`)
+- Saved locally: `C:\Fleischtography Dropbox\...\My Apps and Programs (My Creations)\GAM Helper\gam_helper.py`
+- 1360-line Python script, runs in Google Cloud Shell where GAM is installed
+- Features: onboard/suspend faculty & students, manage groups, calendar, Chromebooks, Google Classroom, Drive, contacts, batch from sheet
+- Domains: `fuchsmizrachi.org` (faculty), `g.fuchsmizrachi.org` (students/groups)
 
 ## VeraFast App
 - Desktop app for exploring Veracross school data (Python/Tkinter, PyInstaller for EXE)
