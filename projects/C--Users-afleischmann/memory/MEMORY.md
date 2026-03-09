@@ -1,5 +1,29 @@
 # Memory
 
+## Things to Remember
+- Avi Sher owes me Book 6 of Dungeon Crawler Carl
+- Sam Arbesman has Book 7 of Dungeon Crawler Carl
+- Jackie McCrea's daughter's name is Riley
+- Talia can't do lilies — never get her lilies when buying flowers
+
+## `mem` Shorthand
+- `mem <something>` — add to "Things to Remember"
+- `mem` alone — display the list
+- `mem private <something>` — add to MEMORY-private.md (never synced to GitHub/public)
+- `mem remove` / `mem delete the one about...` — remove entries
+- `pull mem` — run `claude/clone-claude-memory-X0C9I`
+
+## Memory Sync
+- **Session start**: run `bash ~/.claude/sync-memory.sh` to push+pull with GitHub
+- **Session end**: same script after memory changes
+- GitHub repo: `arthur-vandelay/claude-memory` (public). Files with "private" in name excluded from sync.
+
+## Family
+- Talia (wife), Adriel (b. June 3, 2017), Reia, Ayal
+- GitHub: `arthur-vandelay`
+- Two laptops: `afleischmann` + `TheSw`, synced via Dropbox
+- Proton Mail account (connected via Proton Mail Bridge)
+
 ## User Preferences
 - When user asks for a "plain text list" of emails, they need a copy-pasteable list at the bottom (e.g. comma-separated or one per line) for pasting into email fields, in addition to the descriptive per-student breakdown above it.
 - **VeraFast roadmap workflow**: After completing each checklist item, STOP and check in with the user before starting the next item. Do not auto-advance to the next task.

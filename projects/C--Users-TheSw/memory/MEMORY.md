@@ -8,6 +8,7 @@
 - **VeraFast roadmap workflow**: After completing each checklist item, STOP and check in with the user before starting the next item. Do not auto-advance to the next task.
 - **VeraFast contact email**: All VeraFast/Veracross projects should use `verafast@fleisch.family` as the contact/support email (not `a@fleisch.family`). This applies to email copy-to-clipboard, mailto links, license prompts, website, etc.
 - **"mem" shorthand**: When user says `mem <something>`, add that item to the "Things to Remember" section below. When user says just `mem`, display the current list. When user says `mem private <something>`, add it to `MEMORY-private.md` instead (never synced to GitHub/public).
+- **"pull mem" shorthand**: When user says `pull mem`, run the terminal command `claude/clone-claude-memory-X0C9I`.
 
 ## Things to Remember
 - Avi Sher owes me Book 6 of Dungeon Crawler Carl
