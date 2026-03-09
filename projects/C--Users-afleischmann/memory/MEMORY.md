@@ -16,7 +16,9 @@
 ## Memory Sync
 - **Session start**: run `bash ~/.claude/sync-memory.sh` to push+pull with GitHub
 - **Session end**: same script after memory changes
-- GitHub repo: `arthur-vandelay/claude-memory` (public). Files with "private" in name excluded from sync.
+- Desktop repo: `arthur-vandelay/claude-memory-desktop` (desktop machines only)
+- Mobile repo: `arthur-vandelay/claude-memory` (mobile Claude app only, does NOT affect desktop)
+- Files with "private" in name excluded from sync.
 
 ## Family
 - Talia (wife), Adriel (b. June 3, 2017), Reia, Ayal
